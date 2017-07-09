@@ -8,7 +8,7 @@
         }
     ],
     "require": {
-        "socialvine/pulse": "0.0.2",
+        "socialvine/pulse": "0.0.1",
         "guzzlehttp/guzzle": "^6.3"
     },
     "autoload": {
