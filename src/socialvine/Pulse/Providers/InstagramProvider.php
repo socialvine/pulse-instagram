@@ -39,8 +39,8 @@ class InstagramProvider extends \Socialvine\Pulse\Providers\AbstractProvider {
 					'access_token' => $this->config['access_token']
 				]
 			]);
-			echo ($response->getBody());
-		// return json_decode($response->getBody())->data;
+			// echo ($response->getBody());
+		return json_decode($response->getBody());
 	}
 
 	private function prepUrl($params) {
