@@ -1,6 +1,6 @@
 {
     "name": "socialvine/pulse-instagram",
-    "version": "0.0.2",
+    "version": "0.0.1",
     "authors": [
         {
             "name": "neerajsohal",
@@ -8,7 +8,7 @@
         }
     ],
     "require": {
-        "socialvine/pulse": "0.0.2",
+        "socialvine/pulse": "0.0.1",
         "guzzlehttp/guzzle": "^6.3"
     },
     "autoload": {
