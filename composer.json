@@ -1,0 +1,19 @@
+{
+    "name": "socialvine/pulse-instagram",
+    "version": "0.0.0",
+    "authors": [
+        {
+            "name": "neerajsohal",
+            "email": "hello@neerajkumar.name"
+        }
+    ],
+    "require": {
+        "socialvine/pulse": "0.0.2",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Socialvine\\": "src/socialvine"
+        }
+    }
+}
