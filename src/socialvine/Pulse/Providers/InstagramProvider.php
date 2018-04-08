@@ -34,9 +34,12 @@ class InstagramProvider extends \Socialvine\Pulse\Providers\AbstractProvider {
 	}
 
 	public function search($params) {
-		$response = $this->client->get('v1/tags/diwali/media/recent', [
+		// $response = $this->client->get('v1/tags/diwali/media/recent', [
+		$response = $this->client->get('v1/media/search', [
 				'query' => [
-					'access_token' => $this->config['access_token']
+                    'access_token' => $this->config['access_token'],
+                    'lat' => $this->config['lat'],
+                    'lng' => $this->config['lon'],
 				]
 			]);
 			// echo ($response->getBody());
